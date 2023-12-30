@@ -9,7 +9,7 @@ profile:
   image: guozhengli.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>#1103, Central Teaching Bldg.</p>
+    <p>Office: Central Teaching Bldg, #1103.</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -21,7 +21,7 @@ Hi, welcome to my homepage. I am Guozheng, an assistant professor at School of C
 
 My research interests are information visualization, machine learning, human-computer interaction and virtual / augmented reality. Specifically, I have been working on visualization tools (e.g., HiTailor, CoInsight), visualization libraries (e.g., BarcodeTree, GoTree), and visual analytics systems (e.g., TokenVis, LitVis).
 
-I am always looking for highly-motivated undergraduate or graduated students to work with me. Please drop me an email if you are interested or come directly to Room 1103 of the central teaching building and have a cup of coffee :smile:.
+I am always looking for highly-motivated undergraduate or graduated students to work with me. Please drop me an email if you are interested or come directly to my office and have a cup of coffee :smile:.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
