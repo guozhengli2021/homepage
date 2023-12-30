@@ -9,7 +9,7 @@ profile:
   image: guozhengli.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Office: Central Teaching Bldg, #1103.</p>
+    Office: Central Teaching Bldg, #1103.
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
