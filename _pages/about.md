@@ -9,8 +9,7 @@ profile:
   image: guozhengli.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>1103, Central Teaching Building</p>
-    <p>No.5, Zhongguancun South Street</p>
+    <p>#1103, Central Teaching Bldg.</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,6 +18,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hi, welcome to my homepage. I am Guozheng, an assistant professor at School of Computer Science, Beijing Intitute of Technology, China. My research interest is about information visualization, human-computer interaction. 
+
+Before joining BIT, I received my Ph.D. degree in Computer Science at the School of EECS, Peking University in 2021, supervised by Prof. Xiaoru Yuan in the <a href='https://vis.pku.edu.cn/wiki/'>Visualization and Visual Analytics Group</a>. I received my Bachelor degree of Computer Science (Elite Class) from <a href='https://en.sdu.edu.cn/'>Shandong University</a> in 2016. 
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
