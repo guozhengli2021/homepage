@@ -1,84 +1,210 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{journal_tvcg = {IEEE Transactions on Visualization and Computer Graphics}}
+@string{journal_jov = {Journal of Visualization}}
+@string{conf_chi = {Proc. ACM Conf. Human Factors in Computing Systems (CHI)}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@article{CoInsight2023tvcg,
+  author={Li, Guozheng and Li, Runfei and Feng, Yunshan and Zhang, Yu and Luo, Yuyu and Liu, Harold Chi and Wang, Guoren},
+  journal=journal_tvcg, 
+  title={CoInsight: Visual Storytelling for Hierarchical Tables with Connected Insights}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{StickyLinks2023tvcg,
+  author={Lu, Min and Zeng, Xiangfang and Lanir, Joel and Sun, Xiaoqin and Li, Guozheng and Cohen, Or Daniel and Huang, Hui},
+  journal=journal_tvcg, 
+  title={Sticky Links: Encoding Quantitative Data of Graph Edges}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{HiTailor2023tvcg,
+  author={Li, Guozheng and Li, Runfei and Wang, Zicheng and Liu, Chi Harold and Lu, Min and Wang, Guoren},
+  journal=journal_tvcg, 
+  title={HiTailor: Interactive Transformation and Visualization for Hierarchical Tabular Data}, 
+  abstract={Tabular visualization techniques integrate visual representations with tabular data to avoid additional cognitive load caused by splitting users’ attention. However, most of the existing studies focus on simple flat tables instead of hierarchical tables, whose complex structure limits the expressiveness of visualization results and affects users’ efficiency in visualization construction. We present HiTailor, a technique for presenting and exploring hierarchical tables. HiTailor constructs an abstract model, which defines row/column headings as biclustering and hierarchical structures. Based on our abstract model, we identify three pairs of operators, Swap/Transpose, ToStacked/ToLinear, Fold/Unfold, for transformations of hierarchical tables to support users’ comprehensive explorations. After transformation, users can specify a cell or block of interest in hierarchical tables as a TableUnit for visualization, and HiTailor recommends other related TableUnits according to the abstract model using different mechanisms. We demonstrate the usability of the HiTailor system through a comparative study and a case study with domain experts, showing that HiTailor can present and explore hierarchical tables from different viewpoints. HiTailor is available at https://github.com/bitvis2021/HiTailor.},
+  year={2023},
+  volume={29},
+  number={1},
+  pages={139-148},
+  doi={10.1109/TVCG.2022.3209354},
+  pdf={2023-HiTailor-TVCG.pdf},
+  html={https://github.com/bitvis2021/HiTailor},
+  selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{LitVis2023jov,
+  author       = {Min Tian and Guozheng Li and Xiaoru Yuan},
+  title        = {LitVis: a visual analytics approach for managing and exploring literature},
+  journal      = journal_jov,
+  abstract={Reading literature is essential to research. However, the explosive growth, the multidimensional attributes, and the complex relationships pose a tremendous challenge for researchers to understand and analyze literature efficiently. We propose LitVis, a visual analysis approach to help users manage and explore literature based on its metadata. LitVis allows users to select literature collection of interest and analyze them from their attributes, text, and citation networks. From the perspective of attribute values, LitVis supports users in understanding the distribution of literature and filtering individuals of interest. From the perspective of the text, LitVis uses the Latent Dirichlet Allocation model to extract topics from the literature and allows users to adjust the topic extraction results interactively. From the citation network perspective, LitVis enables users to analyze citation relationships within and between topics to help them understand research development. One use case and carefully designed interviews with domain experts validate the effectiveness of LitVis in the management and analysis of the literature. The results show that LitVis help users comprehensively identify the literature collection of interest and efficiently analyze the evolution of research topics.},
+  volume       = {26},
+  number       = {6},
+  pages        = {1445--1458},
+  year         = {2023},
+  url          = {https://doi.org/10.1007/s12650-023-00941-3},
+  doi          = {10.1007/S12650-023-00941-3},
+  pdf          = {2023-LitVis-JoV.pdf},
+  timestamp    = {Fri, 27 Oct 2023 20:39:48 +0200},
+  biburl       = {https://dblp.org/rec/journals/jvis/TianLY23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{BarcodeTree2020tvcg,
+  author={Li, Guozheng and Zhang, Yu and Dong, Yu and Liang, Jie and Zhang, Jinson and Wang, Jinsong and Mcguffin, Michael J. and Yuan, Xiaoru},
+  journal=journal_tvcg, 
+  title={BarcodeTree: Scalable Comparison of Multiple Hierarchies}, 
+  abstract={We propose BarcodeTree (BCT), a novel visualization technique for comparing topological structures and node attribute values of multiple trees. BCT can provide an overview of one hundred shallow and stable trees simultaneously, without aggregating individual nodes. Each BCT is shown within a single row using a style similar to a barcode, allowing trees to be stacked vertically with matching nodes aligned horizontally to ease comparison and maintain space efficiency. We design several visual cues and interactive techniques to help users understand the topological structure and compare trees. In an experiment comparing two variants of BCT with icicle plots, the results suggest that BCTs make it easier to visually compare trees by reducing the vertical distance between different trees. We also present two case studies involving a dataset of hundreds of trees to demonstrate BCT’s utility.},
+  year={2020},
+  volume={26},
+  number={1},
+  pages={1022-1032},
+  html={https://vis.pku.edu.cn/graphvis/en/barcodetree/index.html},
+  doi={10.1109/TVCG.2019.2934535},
+  selected={true}
+}
+
+@ARTICLE{GoTreeScape2023tvcg,
+  author={Li, Guozheng and Yuan, Xiaoru},
+  journal=journal_tvcg, 
+  title={GoTreeScape: Navigate and Explore the Tree Visualization Design Space}, 
+  abstract={Declarative grammar has becoming an increasingly significant technique for understanding visualization design space. We propose GoTreeScape system to facilitate the navigation and exploration of the vast design space implied by GoTree, a declarative grammar of tree visualizations. To provide users with the design space overview, GoTreeScape utilizes an Encoder-Decoder architecture to project tree visualizations into a 2D landscape, taking into account the relationships between different design features. Furthermore, GoTreeScape includes an exploratory framework, enabling top-down, bottom-up, and hybrid modes to support the inherently undirected nature of exploratory search. We demonstrate that GoTreeScape can expand the diversity of user-designed tree visualizations through two case studies.},
+  year={2023},
+  volume={29},
+  number={12},
+  pages={5451-5467},
+  html={https://github.com/bitvis2021/GoTreeScape},
+  doi={10.1109/TVCG.2022.3215070},
+  selected={true}
+}
+
+@inproceedings{GoTree2020chi,
+  author       = {Guozheng Li and Min Tian and Qinmei Xu and Michael J. McGuffin and Xiaoru Yuan},
+  title        = {GoTree: {A} Grammar of Tree Visualizations},
+  abstract     = {We present GoTree, a declarative grammar allowing users to instantiate tree visualizations by specifying three aspects: vi- sual elements, layout, and coordinate system. Within the set of all possible tree visualization techniques, we identify a subset of techniques that are both “unit-decomposable” and “axis-decomposable” (terms we define). For tree visualiza- tions within this subset, GoTree gives the user flexible and fine-grained control over the parameters of the techniques, supporting both explicit and implicit tree visualizations. We developed Tree Illustrator, an interactive authoring tool based on GoTree grammar. Tree Illustrator allows users to create a considerable number of tree visualizations, including not only existing techniques but also undiscovered and hybrid visualizations. We demonstrate the expressiveness and generative power of GoTree with a gallery of examples and conduct a qualitative study to validate the usability of Tree Illustrator.},
+  booktitle    = conf_chi,
+  pages        = {1--13},
+  publisher    = {{ACM}},
+  year         = {2020},
+  url          = {https://doi.org/10.1145/3313831.3376297},
+  doi          = {10.1145/3313831.3376297},
+  timestamp    = {Wed, 17 May 2023 07:47:57 +0200},
+  biburl       = {https://dblp.org/rec/conf/chi/0002TXMY20.bib},
+  html         = {https://vis.pku.edu.cn/gotree/},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  selected     = {true}
+}
+
+@article{TokenVis2023cje,
+  author={Li, Guozheng and Zhao, Cong and Chi Harold Liu and Siming Chen and Guoren Wang},
+  journal={Chinese Journal of Electronics}, 
+  title={TokenVis: Visual Analytics for Evolutionary Patterns of Ethereum ERC-20 Smart Contract}, 
+  abstract={Blockchain techniques have received extensive attention in recent years. The cryptocurrency market based on block-chain techniques is complex and unstable, vulnerable to political, economic and social factors. Existing studies focus on native cryptocurrencies, such as Bitcoin and Ethereum. However, a large number of ERC-20 tokens in the cryptocurrency market exist. ERC-20 tokens have a great market capitalization, attracting many investors' attention. This paper proposes TokenVis, a visual analytics system to help investors understand the evolutionary patterns of different ERC-20 standard tokens and provide explanations. The TokenVis prototype system integrates a visual analytics framework with different time granularities. We propose SegRank visualization for presenting evolutionary patterns of multiple time series and a time-based COBYLA optimization algorithm to show the relationships between evolutionary patterns and news to provide explanations. We present two case studies involving the evolutionary patterns of different tokens to demonstrate the effectiveness and usability of the TokenVis prototype system.},
+  year={2023},
+  doi={10.1109/TVCG.2022.3215070}
+}
+
+@inproceedings{CoT2021ICSE,
+  author       = {Yaohui Wang and Guozheng Li and Zijian Wang and Yu Kang and Yangfan Zhou and Hongyu Zhang and Feng Gao and Jeffrey Sun and Li Yang and Pochian Lee and Zhangwei Xu and Pu Zhao and Bo Qiao and Liqun Li and Xu Zhang and Qingwei Lin},
+  title        = {Fast Outage Analysis of Large-scale Production Clouds with Service Correlation Mining},
+  abstract     = {Cloud-based services are surging into popularity in recent years. However, outages, i.e., severe incidents that always impact multiple services, can dramatically affect user experience and incur severe economic losses. Locating the root- cause service, i.e., the service that contains the root cause of the outage, is a crucial step to mitigate the impact of the outage. In current industrial practice, this is generally performed in a bootstrap manner and largely depends on human efforts: the service that directly causes the outage is identified first, and the suspected root cause is traced back manually from service to service during diagnosis until the actual root cause is found. Unfortunately, production cloud systems typically contain a large number of interdependent services. Such a manual root cause analysis is often time-consuming and labor-intensive. In this work, we propose COT, the first outage triage approach that considers the global view of service correlations. COT mines the correlations among services from outage diagnosis data. After learning from historical outages, COT can infer the root cause of emerging ones accurately. We implement COT and evaluate it on a real-world dataset containing one year of data collected from Microsoft Azure, one of the representative cloud computing platforms in the world. Our experimental results show that COT can reach a triage accuracy of 82.1%∼83.5%, which outperforms the state-of-the-art triage approach by 28.0%∼29.7%.},
+  booktitle    = {Proc. {IEEE/ACM} Int. Conf. Software Engineering ({ICSE})},
+  pages        = {885--896},
+  publisher    = {{IEEE}},
+  year         = {2021},
+  url          = {https://doi.org/10.1109/ICSE43902.2021.00085},
+  doi          = {10.1109/ICSE43902.2021.00085},
+  timestamp    = {Sat, 26 Aug 2023 22:01:09 +0200},
+  biburl       = {https://dblp.org/rec/conf/icse/Wang0WKZZGSYLXZ21.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{HiMacMic2023KDD,
+  author       = {Hancheng Zhang and Guozheng Li and Chi Harold Liu and Guoren Wang and Jian Tang},
+  title        = {HiMacMic: Hierarchical Multi-Agent Deep Reinforcement Learning with Dynamic Asynchronous Macro Strategy},
+  abstract     = {Multi-agent deep reinforcement learning (MADRL) has been widely used in many scenarios such as robotics and game AI. However, existing methods mainly focus on the optimization of agents’ micro policies without considering the macro strategy. As a result, they cannot perform well in complex or sparse reward scenarios like the StarCraft Multi-Agent Challenge (SMAC) and Google Research Football (GRF). To this end, we propose a hierarchical MADRL framework called “HiMacMic" with dynamic asynchronous macro strategy. Spatially, HiMacMic determines a critical position by using a positional heat map. Temporally, the macro strategy dynamically decides its deadline and updates it asynchronously among agents. We validate HiMacMic in four widely used benchmarks, namely: Overcooked, GRF, SMAC and SMAC-v2 with nine chosen scenarios. Results show that HiMacMic not only converges faster and achieves higher results than ten existing approaches, but also shows its adaptability to different environment settings.},
+  booktitle    = {Proc. Conf. on Knowledge Discovery and Data Mining ({KDD})},
+  pages        = {3239--3248},
+  publisher    = {{ACM}},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3580305.3599379},
+  doi          = {10.1145/3580305.3599379},
+  timestamp    = {Mon, 25 Sep 2023 08:29:22 +0200},
+  biburl       = {https://dblp.org/rec/conf/kdd/Zhang0LW023.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Meta2023TKDE,
+  author={Li, Ximing and Ma, Chen and Li, Guozheng and Xu, Peng and Liu, Chi Harold and Yuan, Ye and Wang, Guoren},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Meta Auxiliary Learning for Top-K Recommendation}, 
+  abstract={Recommender systems are playing a significant role in modern society to alleviate the information/choice overload problem, since Internet users may feel hard to identify the most favorite items or products from millions of candidates. Thanks to the recent successes in computer vision, auxiliary learning has become a powerful means to improve the performance of a target (primary) task. Even though helpful, the auxiliary learning scheme is still less explored in recommendation models. To integrate the auxiliary learning scheme, we propose a novel meta auxiliary learning framework to facilitate the recommendation model training, i.e., user and item latent representations. Specifically, we construct two self-supervised learning tasks, regarding both users and items, as auxiliary tasks to enhance the representation effectiveness of users and items. Then the auxiliary and primary tasks are further modeled as a meta learning paradigm to adaptively control the contribution of auxiliary tasks for improving the primary recommendation task. This is achieved by an implicit gradient method guaranteeing less time complexity comparing with conventional meta learning methods. Via a comparison using four real-world datasets with a number of state-of-the-art methods, we show that the proposed model outperforms the best existing models on the Top-K recommendation by 3% to 23%.},
+  year={2023},
+  volume={35},
+  number={10},
+  pages={10857-10870},
+  doi={10.1109/TKDE.2022.3223155}
+}
+
+@inproceedings{UGVUAV2023ICDE,
+  author       = {Wang, Yu and Wu, Jingfei and Hua, Xinyuan and Liu, Harold Chi and Li, Guozheng and Zhao, Jianxin and Yuan, Ye and Wang, Guoren},
+  title        = {Air-Ground Spatial Crowdsourcing with UAV Carriers by Geometric Graph Convolutional Multi-Agent Deep Reinforcement Learning},
+  abstract     = {Spatial Crowdsourcing (SC) has been proved as an effective paradigm for data acquisition in urban environments. Apart from using human participant, with the rapid development of unmanned vehicles (UVs) technologies, unmanned aerial or ground vehicles (UAVs, UGVs) are equipped with various high- precision sensors, enabling them to become new types of data collectors. However, UGVs’ operational range is constrained by the road network, and UAVs are limited by power supply, it is thus natural to use UGVs and UAVs together as a coalition, and more precisely, UGVs behave as the UAV carriers for range extensions to achieve complicated air-ground SC tasks. In this paper, we propose a novel communication-based multi- agent deep reinforcement learning method called “GARL”, which consists of a multi-center attention-based graph convolutional network (GCN) to accurately extract UGV specific features from UGV stop network called “MC-GCN”, and a novel GNN- based communication mechanism called “E-Comm” to make the cooperation among UGVs adaptive to constant changing of geometric shapes formed by UGVs. Extensive simulation results on two campuses of KAIST and UCLA campuses show that GARL consistently outperforms eight other baselines in terms of overall efficiency.},
+  booktitle    = {Proc. Conf. on Int. Conf. on Data Engineering ({ICDE})},
+  pages        = {1790--1802},
+  publisher    = {{IEEE}},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3580305.3599379},
+  doi          = {10.1145/3580305.3599379},
+  timestamp    = {Mon, 25 Sep 2023 08:29:22 +0200},
+  biburl       = {https://dblp.org/rec/conf/kdd/Zhang0LW023.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Interaction2017pvis,
+  author={Min Lu and Jie Liang and Yu Zhang and Guozheng Li and Siming Chen and Zongru Li and Yuan, Xiaoru},
+  booktitle={Proc. IEEE Pacific Visualization Symposium (PacificVis)}, 
+  title={Interaction+: Interaction enhancement for web-based visualizations}, 
+  abstract={In this work, we present Interaction+, a tool that enhances the in- teractive capability of existing web-based visualizations. Different from the toolkits for authoring interactions during the visualization construction, Interaction+ takes existing visualizations as input, analyzes the visual objects, and provides users with a suite of interac- tions to facilitate the visual exploration, including selection, aggregation, arrangement, comparison, filtering, and annotation. Without accessing the underlying data or process how the visualization is constructed, Interaction+ is application-independent and can be employed in various visualizations on the web. We demonstrate its usage in two scenarios and evaluate its effectiveness with a qualitative user study.},
+  year={2017},
+  volume={},
+  number={},
+  pages={61-70},
+  doi={10.1109/PACIFICVIS.2017.8031580}
+}
+
+@inproceedings{Assigning2020pvisn,
+  author={Han, Yun and Wang, Zhenhuang and Chen, Siming and Li, Guozheng and Zhang, Xiaolong and Yuan, Xiaoru},
+  booktitle={Proc. IEEE Pacific Visualization Symposium (PacificVis, Notes)}, 
+  title={Interactive Assigning of Conference Sessions with Visualization and Topic Modeling}, 
+  abstract={Creating thematic sessions based on accepted papers is important to the success of a conference. Facing a large number of papers from multiple topics, conference organizers need to identify the topics of papers and group them into sessions by considering the constraints on session numbers and paper numbers in individual sessions. In this paper, we present a system using visualization and topic modeling to help the construction of conference sessions. The system provides multiple automatically generated session schemes and allows users to create, evaluate, and manipulate paper sessions with given constraints. A case study based on our system on the VAST papers shows that our method can help users successfully construct coherent conference sessions. In addition to conference session management, our method can be extended to other tasks, such as event and class schedule.},
+  year={2020},
+  volume={},
+  number={},
+  pages={236-240},
+  doi={10.1109/PacificVis48177.2020.1027x}
+}
+
+@inproceedings{TreeIllustrator2020chiea,
+  author       = {Guozheng Li and Min Tian and Qinmei Xu and Michael J. McGuffin and Xiaoru Yuan},
+  title        = {Tree Illustrator: Interactive Construction of Tree Visualizations},
+  abstract={Creating thematic sessions based on accepted papers is important to the success of a conference. Facing a large number of papers from multiple topics, conference organizers need to identify the topics of papers and group them into sessions by considering the constraints on session numbers and paper numbers in individual sessions. In this paper, we present a system using visualization and topic modeling to help the construction of conference sessions. The system provides multiple automatically generated session schemes and allows users to create, evaluate, and manipulate paper sessions with given constraints. A case study based on our system on the VAST papers shows that our method can help users successfully construct coherent conference sessions. In addition to conference session management, our method can be extended to other tasks, such as event and class schedule.},
+  booktitle    = {Extended Abstacts of ACM Conf. Human Factors in Computing Systems},
+  pages        = {1--4},
+  publisher    = {{ACM}},
+  year         = {2020},
+  url          = {https://doi.org/10.1145/3334480.3383150},
+  doi          = {10.1145/3334480.3383150},
+  timestamp    = {Wed, 17 May 2023 07:48:02 +0200},
+  biburl       = {https://dblp.org/rec/conf/chi/0002TXMY20a.bib}
 }
