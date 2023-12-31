@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://english.bit.edu.cn/'>Beijign Institute of Technology</a>
+subtitle: <a href='https://english.bit.edu.cn/'>Beijing Institute of Technology</a>
 
 profile:
   align: right
