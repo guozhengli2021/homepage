@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi, welcome to my homepage. I am Guozheng, an assistant professor at School of Computer Science, Beijing Institute of Technology, China. Before joining BIT, I received my Ph.D. degree in Computer Science at the School of EECS, Peking University in 2021, supervised by Prof. Xiaoru Yuan in the <a href='https://vis.pku.edu.cn/wiki/'>Visualization and Visual Analytics Group</a>. I received my Bachelor degree of Computer Science (Elite Class) from <a href='https://en.sdu.edu.cn/'>Shandong University</a> in 2016. 
+Hi, welcome to my homepage. I am Guozheng, an assistant professor at School of Computer Science, Beijing Institute of Technology, China. Before joining BIT, I received my Ph.D. degree of Computer Science at the School of EECS, Peking University in 2021, supervised by Prof. Xiaoru Yuan in the <a href='https://vis.pku.edu.cn/wiki/'>Visualization and Visual Analytics Group</a>. I received my Bachelor degree of Computer Science (Elite Class) from <a href='https://en.sdu.edu.cn/'>Shandong University</a> in 2016. 
 
 My research interests are information visualization, machine learning, human-computer interaction and virtual / augmented reality. Specifically, I have been working on visualization tools (e.g., HiTailor, CoInsight), visualization libraries (e.g., BarcodeTree, GoTree), and visual analytics systems (e.g., TokenVis, LitVis).
 
