@@ -17,12 +17,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi, welcome to my homepage. I am Guozheng, an assistant professor at the School of Computer Science, Beijing Institute of Technology, China. Before joining BIT, I received my Ph.D. degree in Computer Science from the School of EECS, <a href='https://english.pku.edu.cn/'>Peking University</a> in 2021, supervised by <a href='https://vis.pku.edu.cn/xiaoruyuan.html'>Prof. Xiaoru Yuan</a> in the <a href='https://vis.pku.edu.cn/wiki/'>Visualization and Visual Analytics Group</a>. I am also very lucky to have a close working relationship with <a href='https://www.michaelmcguffin.com/'>Prof. Michael McGuffin</a> at ETS, Canada. I received my Bachelor degree of Computer Science (Elite Class) from <a href='https://en.sdu.edu.cn/'>Shandong University</a> in 2016. 
+Hi, welcome to my homepage. I am Guozheng, an assistant professor at the School of Computer Science, Beijing Institute of Technology, China. Before joining BIT, I received my Ph.D. degree in Computer Science from the School of EECS, <a href='https://english.pku.edu.cn/'>Peking University</a> in 2021, supervised by <a href='https://vis.pku.edu.cn/xiaoruyuan.html'>Prof. Xiaoru Yuan</a> in the <a href='https://vis.pku.edu.cn/wiki/'>Visualization and Visual Analytics Group</a>. I am also very lucky to have a close working relationship with <a href='https://www.michaelmcguffin.com/'>Prof. Michael McGuffin</a> at ETS, Canada. I received my Bachelor degree of Computer Science (Elite Class) from <a href='https://en.sdu.edu.cn/'>Shandong University</a> in 2016.
 
 My research interests are information visualization, machine learning, human-computer interaction and virtual / augmented reality. Specifically, I have been working on visualization tools (e.g., HiTailor, CoInsight), visualization libraries (e.g., BarcodeTree, GoTree), and visual analytics systems (e.g., TokenVis, LitVis).
 
 I am always looking for highly-motivated undergraduate or graduated students to work with me. Please drop me an email if you are interested or stop by my office to chat and have some coffee :sunny:.
-
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
