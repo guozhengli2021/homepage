@@ -21,7 +21,7 @@ Welcome to my homepage! I'm Guozheng, currently serving as an assistant professo
 
 My primary research interests encompass information visualization, machine learning, human-computer interaction, and the realms of virtual/augmented reality. Specifically, my focus has been on developing innovative visualization tools such as HiTailor and CoInsight, crafting visualization libraries including BarcodeTree and GoTree, and contributing to the development of visual analytics systems like TokenVis and LitVis.
 
-I am always eager to collaborate with highly-motivated undergraduate or graduate students. If you're interested in exploring potential research opportunities, feel free to reach out via email. Additionally, drop by my office for a chat and perhaps a cup of coffee – I'm always open to discussions! :grin:
+I am always eager to collaborate with highly-motivated undergraduate or graduate students. If you're interested in exploring potential research opportunities, feel free to reach out via email (guozhg.li<at>gmail.com; guozheng.li<at>bit.edu.cn). Additionally, drop by my office for a chat and perhaps a cup of coffee – I'm always open to discussions! :grin:
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
