@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-InsigHTable has been accepted by TVCG. Cong. to Harpoon!
+InsigHTable has been accepted by TVCG. Congrats. to Harpoon!
