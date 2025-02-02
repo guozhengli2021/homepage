@@ -3,6 +3,7 @@
 @string{conf_chi = {Proc. ACM Conf. Human Factors in Computing Systems (CHI)}}
 @string{conf_chi = {Proc. ACM Conf. Human Factors in Computing Systems (CHI)}}
 
+
 @ARTICLE{InsigHTable2024tvcg,
   author={Li, Guozheng and He, Peng and Wang, Xinyu and Li, Runfei and Liu, Chi Harold and Ou, Chuangxin and He, Dong and Wang, Guoren},
   journal=journal_tvcg, 
@@ -17,26 +18,14 @@
   keywords={Data visualization;Reinforcement learning;Visualization;Asia;Decision making;Data mining;Europe;Hierarchical tabular data;table visualization;reinforcement learning;data transformation},
   doi={10.1109/TVCG.2024.3404454}}
 
-@article{hinavimec2025jov,
-  author = {Zhou, Yu and Li, Guozheng and Ding, Ding and Liu, Ye and Wang, Zhongkai and Zhang, Weijiao and Liu, Harold Chi},
-  journal=journal_jov, 
-  title = {HiNaviMec: Hierarchical Navigation of 3D Mechanical Models in Virtual Environments},
-  abstract = {As remote maintenance becomes increasingly prevalent across various industries, the ability to remotely inspect equipment and guide on-site operations has emerged as a crucial aspect. Remote maintenance relies heavily on 3D models comprising densely packed and interconnected parts, presenting a significant challenge in navigation and comprehension for experts. We introduce HiNaviMec, a novel technique designed to enhance the understanding and navigation of complex 3D mechanical models in a virtual environment. HiNaviMec employs a connection detection algorithm for 3D models to establish connections between mechanical parts and generate the mechanical structure graph, and further utilize a weighted graph partitioning algorithm to realize the division of the overall mechanical structure. For each mechanical part, we determine the relational distance and disassembly direction based on the mechanical structure graph. Furthermore, HiNaviMec generates a hierarchical structure to facilitate the understanding of mechanical structure. The usability study on HiNaviMec demonstrates that HiNaviMec effectively aids users in comprehending the internal structure of machinery and assists experts in grasping intricate relationships between components.},
-  year={2025},
-  volume={},
-  number={},
-  pages={},
-  preview={hinavimec-preview.png},
-  selected={true}}
-
 @inproceedings{BiaSeer2025cscw,
   author = {Li, Guozheng and Han, Shiyu and Wu, Jihe and Hu, Jiale and Liu, Harold Chi},
   title = {BiaSeer: A Visual Analytics System for Identifying and Understanding Media Bias},
   abstract = {Media bias refers to bias in news reporting and coverage that exists pervasively. By identifying media bias, social scientists can understand the different perspectives held by media outlets in news reporting. Existing studies only focus on the analysis of media bias of isolated incidents, but neglect their sustained characteristics. Thus, they cannot provide a comprehensive understanding of specific news topics. We develop BiaSeer, a visual analytics system for identifying and understanding sustained bias of media outlets. BiaSeer employs an overview-to-detail approach for interactive identification of media bias. The overview assists users in determining the analysis scope of media outlets. In addition, it visualizes the variances in coverage patterns between selected media outlets using a matrix visualization to facilitate the identification of biased news articles. BiaSeer visualizes the sustained bias in the context of the events evolution. It first summarizes news articles into events based on a keyword co-occurrence graph and then connects events into a narrative structure using a path-aware story tree construction method. In addition, BiaSeer integrates a sustained bias computation algorithm and enables analysts to compare the narrative structures of different media outlets using the juxtaposition-based visualization approach. We conducted a user experiment to validate the effectiveness of BiaSeer in helping social scientists understand news topics and the usability of visualization designs. To examine the effectiveness of BiaSeer, we conducted a case study with social scientists on the topics of the Russia-Ukraine conflict. The results demonstrate the utility and usability of BiaSeer in efficiently analyzing media bias and attaining a well-rounded understanding of news topics.},
-  booktitle    = {Proc. ACM Hum.-Comput. Interact.},
+  booktitle    = {Proc. ACM Hum.-Comput. Interact.(CSCW)},
   pages        = {1--13},
   publisher    = {{ACM}},
-  year         = {2025},
+  year         = {2024},
   doi          = {https://doi.org/10.1145/3710936},
   timestamp    = {10 May 2025},
   biburl       = {},
@@ -54,6 +43,7 @@
   number={1},
   abstract = {When using exploratory visual analysis to examine multivariate hierarchical data, users often need to query data to narrow down the scope of analysis. However, formulating effective query expressions remains a challenge for multivariate hierarchical data, particularly when datasets become very large. To address this issue, we develop a declarative grammar, HiRegEx (Hierarchical data Regular Expression), for querying and exploring multivariate hierarchical data. Rooted in the extended multi-level task topology framework for tree visualizations (e-MLTT), HiRegEx delineates three query targets (node, path, and subtree) and two aspects for querying these targets (features and positions), and uses operators developed based on classical regular expressions for query construction. Based on the HiRegEx grammar, we develop an exploratory framework for querying and exploring multivariate hierarchical data and integrate it into the TreeQueryER prototype system. The exploratory framework includes three major components: top-down pattern specification, bottom-up data-driven inquiry, and context-creation data overview. We validate the expressiveness of HiRegEx with the tasks from the e-MLTT framework and showcase the utility and effectiveness of TreeQueryER system through a case study involving expert users in the analysis of a citation tree dataset.},
   pages={699-709},
+  preview={hiregex-preview.png},
   keywords={Visualization;Time series analysis;Grammar;Database languages;Data visualization;Syntactics;Topology;Multivariate hierarchical data;declarative grammar;visual query},
   doi={10.1109/TVCG.2024.3456389}}
 
@@ -70,21 +60,17 @@
   doi={10.1109/JSAC.2024.3459039}}
 
 
-@inproceedings{BiaSeer2025cscw,
-  author       = {Li, Guozheng and Han, Shiyu and Wu, Jihe and Hu, Jiale and Liu, Harold Chi},
-  title        = {BiaSeer: A Visual Analytics System for Identifying and Understanding Media Bias},
-  abstract     = {},
-  booktitle    = {Proc. ACM Hum.-Comput. Interact.},
-  pages        = {1--13},
-  publisher    = {{ACM}},
-  year         = {2025},
-  doi          = {https://doi.org/10.1145/3710936},
-  timestamp    = {10 May 2025},
-  biburl       = {},
-  html         = {https://github.com/bitvis2021/BiaSeer},
-  preview      = {biaseer-preview.png},
-  pdf          = {},
-  selected     = {true}}
+@article{hinavimec2025jov,
+  author = {Zhou, Yu and Li, Guozheng and Ding, Ding and Liu, Ye and Wang, Zhongkai and Zhang, Weijiao and Liu, Harold Chi},
+  journal=journal_jov, 
+  title = {HiNaviMec: Hierarchical Navigation of 3D Mechanical Models in Virtual Environments},
+  abstract = {As remote maintenance becomes increasingly prevalent across various industries, the ability to remotely inspect equipment and guide on-site operations has emerged as a crucial aspect. Remote maintenance relies heavily on 3D models comprising densely packed and interconnected parts, presenting a significant challenge in navigation and comprehension for experts. We introduce HiNaviMec, a novel technique designed to enhance the understanding and navigation of complex 3D mechanical models in a virtual environment. HiNaviMec employs a connection detection algorithm for 3D models to establish connections between mechanical parts and generate the mechanical structure graph, and further utilize a weighted graph partitioning algorithm to realize the division of the overall mechanical structure. For each mechanical part, we determine the relational distance and disassembly direction based on the mechanical structure graph. Furthermore, HiNaviMec generates a hierarchical structure to facilitate the understanding of mechanical structure. The usability study on HiNaviMec demonstrates that HiNaviMec effectively aids users in comprehending the internal structure of machinery and assists experts in grasping intricate relationships between components.},
+  year={2024},
+  volume={},
+  number={},
+  pages={},
+  preview={hinavimec-preview.png},
+  selected={true}}
   
 @article{CoInsight2023tvcg,
   author={Li, Guozheng and Li, Runfei and Feng, Yunshan and Zhang, Yu and Luo, Yuyu and Liu, Harold Chi and Wang, Guoren},
