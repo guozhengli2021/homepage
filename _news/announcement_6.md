@@ -6,3 +6,4 @@ related_posts: false
 ---
 
 Invited to join the JapanVis 2025 Program Committee
+
